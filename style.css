@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #f4f4f5;
+    font-size: 1rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.157);
+    align-items: center;
+    color: #f4f4f5;
+    backdrop-filter: blur(12px);
+    padding: 15px 25px;
+    position: absolute;
+    width: 100%;
+}
+.logo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 250px;
+}
+.menu-wrapper{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.menu ul>li {
+    display: inline;
+    color: #bbb9b4;
+}
+.separator-v{
+    background-color: #8d8d8d;
+    margin: 5px;
+    width: 1px;
+    height: 25px;
+}
+.btn-plus{
+    background-color: #47b753;
+    padding: 5px 15px;
+    border-radius: 25px;
+    margin: 5px;
+    border: 1px solid #47b753;
+    color: #f4f4f5;
+}
+.gbutton button{
+    width: 100%;
+    height: 100%;
+}
+
+.banner{
+    height: 400px;
+    background-image: url(./images/banner.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.presentation-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+    top:-80px;
+    padding: 0px 25px;
+}
+.presentation-title{
+    font-size: 1.6rem;
+    color: #f4f4f5;
+
+}
+.presentation-location{
+    font-size: 1.1rem;
+    color: #bbb9b4;
+}
+.presentation-logo{
+    background-color: #8585ef;
+    height: 200px;
+    width: 200px;
+}
+.presentation-meta-title{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.presentation-meta{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    gap: 50px;
+    top:30px;
+}
+.presentation-meta-title{
+    width:max-content ;
+    color: #c7c3c1;
+    text-underline-offset: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.presentation-meta-description{
+    color: #8d8d8d;
+}
+.presentation-meta-item{
+    flex-grow:1;
+}
+
+.presentation-meta-social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9cece;
+}
+.social div{
+    background-color: #8d8d8d;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.presentation-meta-keys{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-weight: bold;
+}
+.meta-key-count{
+    color: #000000;
+    font-size: 1.3rem;
+}
+.meta-key-label{
+    color: #8d8d8d;
+    font-size: 1.1rem;
+}
