@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background-color: #f4f4f5;
+    background-color:#f4f4f4;
     font-size: 1rem;
 }
 .navbar{
@@ -14,6 +14,9 @@ body{
     padding: 15px 25px;
     position: absolute;
     width: 100%;
+}
+.header{
+    background-color: #fff;
 }
 .logo{
     display:flex;
@@ -111,7 +114,7 @@ body{
 .presentation-meta-social{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
     margin-top: 20px;
 }
 .social{
@@ -119,13 +122,16 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #f9cece;
 }
 .social div{
-    background-color: #8d8d8d;
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
+}
+.social object{
+    height: 40px;
+    width: 40px;
+    filter: grayscale(1);
 }
 .presentation-meta-keys{
     display: flex;
@@ -140,4 +146,71 @@ body{
 .meta-key-label{
     color: #8d8d8d;
     font-size: 1.1rem;
+}
+
+/**
+content
+*/
+.content{
+    padding: 50px;
+}
+/** post */
+.post{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    height:200px;
+    gap:25px;
+}
+.post-image, .post-image img{
+    width:300px;
+    height: 100%;
+}
+.post-meta{
+    padding: 25px;
+}
+.post-meta-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.post-meta-type{
+    font-size: 1.1rem;
+    color: #008df8;
+}
+.post-meta-date{
+    font-size: 1.1rem;
+    color: #8d8d8d;;
+}
+.post-meta-time{
+    font-size: 1.1rem;
+    color:#8d8d8d;;
+}
+/** location */
+.post-location{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #8d8d8d;;
+}
+.post-place object{
+    height: 18px;
+    width: 18px;
+}
+.post-place{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/** calendar */
+.post-calendar{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* reports */
+.post-reports{
+    border-left: 1px solid #f7f7f7;
 }
